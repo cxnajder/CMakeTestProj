@@ -8,7 +8,6 @@ set(GLFW_PROGRAM "glfwApp")
 add_executable(${GLFW_PROGRAM} glfwApp/Main.cpp)
 
 target_include_directories(${GLFW_PROGRAM} PUBLIC External/glfw/include)
-target_link_directories(${GLFW_PROGRAM} PRIVATE External/glfw/src)
 target_link_libraries(${GLFW_PROGRAM} glfw)
 
 
