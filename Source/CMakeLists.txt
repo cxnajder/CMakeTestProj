@@ -4,3 +4,4 @@ project(CMmakeProject VERSION 1.0)
 add_executable(${PROJECT_NAME} Main.cpp)
 
 add_subdirectory(External/glfw)
+add_subdirectory(External/googletest)
