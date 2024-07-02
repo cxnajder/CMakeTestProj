@@ -1,3 +1,5 @@
+#include "CMakeConfig.h"
+
 #include "GLFW/glfw3.h"
 
 #include <cstdlib>
