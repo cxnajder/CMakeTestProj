@@ -1,4 +1,4 @@
 @echo on
 git submodule update --init --recursive
-cmake -D GLFW_BUILD_DOCS=OFF -S Source -B Build
+cmake -S Source -B Build -DGLFW_BUILD_DOCS=OFF
 ninja -C Build
