@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(CMmakeProject VERSION 1.0)
 
-configure_file(CMakeConfig.h.in CMakeConfig.h.)
+configure_file(CMakeConfig.h.in CMakeConfig.h)
 
 add_subdirectory(External/glfw)
 add_subdirectory(External/googletest)
