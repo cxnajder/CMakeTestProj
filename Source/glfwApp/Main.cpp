@@ -13,7 +13,7 @@ int main(int argc, char * argv[])
     {
         std::stringstream ss;
         ss << "First GLFW Program" << " v" << PROJECT_VERSION_MAJOR << "." << PROJECT_VERSION_MINOR;
-        windowTitle = ss.str();\
+        windowTitle = ss.str();
     }
 
     if (!glfwInit())
